@@ -1,1 +1,1 @@
-from .utilidades import true, false, none, ljson, ejson
+from .utilities import true, false, none, rjson, wjson
