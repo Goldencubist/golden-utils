@@ -7,9 +7,9 @@ EN
             Variable that is equal to False
         - none -
             Variable that is equal to None
-        - rjson(file_or_CRU)
+        - rjson(file_or_CRU) -
             Function to convert JSON from a string or from a file into python
-        - wjson(object, file=none)
+        - wjson(object, file=none) -
             Function to convert an object (not only OOP objects, but anything) into JSON, if file argument is provided, writes the final result into the specified file
 
 PT
