@@ -5,7 +5,7 @@ def readme() -> str:
         return f.read()
 
 setup(
-    name = "Python_Basic_Utilities",
+    name = "golden-utils",
     version = "0.1.0",
     packages = find_packages(where = "src"),
     package_dir = {"": "src"},
@@ -15,7 +15,7 @@ setup(
     description = "Utilities for annoying or slowing details, like capitalizing booleans",
     long_description = readme(),
     long_description_content_type = "text/markdown; charset=UTF-8",
-    url = "https://github.com/Goldencubist/Python_Utilities",
+    url = "https://github.com/Goldencubist/golden-utils",
     license = "MIT",
 
     classifiers = [
